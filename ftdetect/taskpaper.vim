@@ -5,6 +5,6 @@
 " Last Change:  2011-03-28
 "
 augroup taskpaper
-     au! BufRead,BufNewFile *.taskpaper   setfiletype taskpaper
+     au! BufRead,BufNewFile *.taskpaper, *.todo   setfiletype taskpaper
      au FileType taskpaper setlocal noexpandtab
 augroup END
